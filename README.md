@@ -73,6 +73,7 @@ python test_q1_2025.py
 - ✅ Restrição: pesos ≤ 20%, carteira long-only
 - ✅ Cálculo do Sharpe Ratio, retorno e volatilidade com funções puras
 - ✅ Paralelismo com `ProcessPoolExecutor`
+- ✅ Obter os dados sob demanda via alguma API
 - ✅ Teste fora da amostra no Q1 de 2025
 - ✅ Comparação entre tempo com e sem paralelismo
 - ✅ README completo com explicações e instruções
@@ -122,6 +123,19 @@ UNH: 0.0015
 V: 0.1618
 VZ: 0.0131
 WMT: 0.1942
+```
+
+### Estimativa de Tempo Sequencial
+
+#### Saída do Terminal
+
+```bash
+env➜  prog-fung-proj git:(main) ✗ python3 test.py 
+🔎 Estimando tempo com 100 combinações...
+Rodando amostra: 100%|████████████████| 100/100 [00:37<00:00,  2.66it/s]
+
+🕒 Tempo estimado total (sem paralelismo): 14:53:08.453440 (893.14 minutos)
+env➜  prog-fung-proj git:(main) ✗ 
 ```
 
 ### Performance fora da amostra (Jan-Mar 2025)

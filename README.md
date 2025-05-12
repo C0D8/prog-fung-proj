@@ -140,12 +140,6 @@ env➜  prog-fung-proj git:(main) ✗
 
 ### Performance fora da amostra (Jan-Mar 2025)
 
-| Métrica        | Valor Estimado |
-|----------------|----------------|
-| Retorno anual  | 12.3%          |
-| Volatilidade   | 15.6%          |
-| Sharpe Ratio   | 0.79           |
-
 ### Saída do Terminal
 
 ```bash
